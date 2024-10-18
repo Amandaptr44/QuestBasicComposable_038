@@ -78,3 +78,8 @@ fun LoginScreen() {
             )
         )
 
+        Spacer(modifier = Modifier.height(32.dp))
+
+        // Nama dan NIM
+        Text(
+            text = "Nama",
