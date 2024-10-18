@@ -89,3 +89,5 @@ fun LoginScreen() {
             )
         )
 
+        Text(
+            text = "Amanda Putri",
