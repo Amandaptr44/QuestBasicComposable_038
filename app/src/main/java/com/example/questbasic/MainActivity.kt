@@ -54,3 +54,7 @@ fun LoginScreen() {
         // Logo
         Image(
             painter = painterResource(id = R.drawable.umy),
+            contentDescription = "Logo",
+        )
+
+       }
