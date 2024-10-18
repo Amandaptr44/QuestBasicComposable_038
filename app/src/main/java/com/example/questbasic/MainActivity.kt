@@ -51,4 +51,6 @@ fun LoginScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top
     ) {
-       }
+        // Logo
+        Image(
+            painter = painterResource(id = R.drawable.umy),
