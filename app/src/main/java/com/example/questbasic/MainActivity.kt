@@ -91,3 +91,11 @@ fun LoginScreen() {
 
         Text(
             text = "Amanda Putri",
+            style = TextStyle(
+                fontSize = 24.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
+        )
+
+        }
