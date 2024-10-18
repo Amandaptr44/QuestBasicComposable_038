@@ -63,4 +63,9 @@ fun LoginScreen() {
         Text(
             text = "Login",
             style = TextStyle(
-                }
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+        )
+
