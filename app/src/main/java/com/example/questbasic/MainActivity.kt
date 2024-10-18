@@ -107,3 +107,8 @@ fun LoginScreen() {
             )
         )
 
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // Profil
+        Image(
+            painter = painterResource(id = R.drawable.amanda),
