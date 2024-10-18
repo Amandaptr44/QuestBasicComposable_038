@@ -72,3 +72,9 @@ fun LoginScreen() {
         // Deskripsi halaman
         Text(
             text = "halaman login",
+            style = TextStyle(
+                fontSize = 16.sp,
+                color = Color.Gray
+            )
+        )
+
