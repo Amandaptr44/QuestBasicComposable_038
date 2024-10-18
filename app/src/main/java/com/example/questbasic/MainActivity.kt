@@ -69,3 +69,6 @@ fun LoginScreen() {
             )
         )
 
+        // Deskripsi halaman
+        Text(
+            text = "halaman login",
