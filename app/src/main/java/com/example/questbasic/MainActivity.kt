@@ -112,3 +112,19 @@ fun LoginScreen() {
         // Profil
         Image(
             painter = painterResource(id = R.drawable.amanda),
+            contentDescription = "Foto Profil",
+            modifier = Modifier
+                .size(200.dp)
+                .padding(16.dp)
+                .clip(CircleShape)
+        )
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun PreviewLoginScreen() {
+    QuestBasicTheme {
+        LoginScreen()
+    }
+}
